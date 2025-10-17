@@ -1,7 +1,7 @@
 :root {
   --primary-color: #fff;
   --secondary-color: #e0e0e0;
-  --bg-primary: #000;
+  --bg-primary: #100C08;
   --bg-secondary: #0a0a0a;
   --bg-tertiary: #1a1a1a;
   --text-primary: #fff;
@@ -13,6 +13,16 @@
   --radius-lg: 0.75rem;
   --transition: all 0.3s ease;
 }
+.oo {
+  display: block;
+  width: 150px;          /* adjust size if u want */
+  height: 150px;         /* keeps it square */
+  object-fit: cover;     /* keeps proportions clean */
+  border-radius: 0.5rem; /* soft corners */
+  margin: 0 auto 1rem;   /* center it and add space below */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
 h1.warning {
   width: 100%;
   background-color: #ffa600;
@@ -23,8 +33,6 @@ h1.warning {
   font-size: 1rem;  /* Adjust the font size as needed */
   font-weight: bold;
 }
-
-
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Inter', sans-serif; background: var(--bg-primary); color: var(--text-primary); }
 .header {
